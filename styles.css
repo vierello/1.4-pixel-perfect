@@ -1,0 +1,609 @@
+.container {
+  max-width: 1300px;
+  /*margin: 0 auto;*/
+}
+
+h1,
+h2,
+h5 {
+  text-transform: uppercase;
+}
+
+header {
+  width: 100%;
+  height: 523px;
+  background: #fff url('images/To_understand_ocean_circulation.jpg');
+  position: relative; /*for absolutely positioned children*/
+  margin-bottom: 62px;
+}
+
+header:before {
+  content:"";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(17, 88,	164,	.8);
+}
+
+header nav,
+header h1,
+header h3 {
+  position: relative;
+}
+
+nav {
+  padding: 0 169px 0 130px;
+  text-align: vertical;
+  text-transform: uppercase;
+}
+
+.branding {
+  position: relative;
+  float: left;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  line-height: 18px;
+  left: 9px;
+  padding: 8px 0 0 0;
+}
+
+.logo {
+  display: inline-block;
+  padding: 2px;
+  height: 49px;
+  width: 49px;
+}
+
+.logo-name {
+  display: inline-block;
+  position: relative;
+  font-size: 17px;
+  top: -19px;
+  line-height: 18px;
+  margin-left: 6px;
+  letter-spacing: -.5px;
+}
+
+.utility-nav {
+  position: relative;
+  font-family: 'Oswald', sans-serif;
+  float: right;
+  font-size: 18px;
+  padding-top: 22px;
+  text-decoration: none;
+  left: 15px;
+}
+
+.utility-nav li {
+  float: right;
+  display: inline;
+  margin-right: 15px;
+}
+
+.utility-nav a {
+  color: black;
+  text-decoration: none;
+}
+
+.clearfix {
+  clear: both;
+}
+
+header h1,
+header h3 {
+  text-align: center;
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.head {
+  height: 523px;
+}
+
+.head-main {
+  color: white;
+  font-size: 105px;
+  top: 148px;
+  padding: 0;
+  letter-spacing: -4px;
+  left: 0;
+}
+
+.deco {
+  letter-spacing: -8px;
+}
+
+.head-sub {
+  top: 149px;
+}
+
+.meat {
+  width: 977px;
+  margin: 0 auto;
+}
+
+.paragraphs {
+  width: 685px;
+  display: inline-block;
+  float: left;
+  margin-left: 3px;
+  padding-right: 40px;
+}
+
+.sidebar {
+  width: 278px;
+  display: inline-block;
+  float: right;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.paragraphs h1 {
+  font-size: 64px;
+  font-family: 'Oswald', sans-serif;
+  line-height: 70px;
+}
+
+.fantastic {
+  letter-spacing: -1px;
+}
+
+.hl-caption {
+  font-family: 'Open Sans', sans-serif;
+  padding: 8px 0 8px 3px;
+  line-height: 22px;
+  margin-bottom: 26px;
+}
+
+.auth-image {
+  height: 22px;
+  width: 22px;
+  float: left;
+  vertical-align: middle;
+}
+
+.auth-name {
+  color: rgba(17,	88,	164,	1);
+  font-size: 13px;
+  margin-left: 8px;
+}
+
+.pub-date {
+  font-size: 13px;
+  margin-left: 10px;
+  margin-bottom: -1px;
+  color: rgba(146,	164,	177,	1);
+}
+
+.underline {
+  text-decoration: underline;
+  color: rgba(146,	164,	177,	1);
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  line-height: 26px;
+  margin-bottom: 26px;
+}
+
+.p2 {
+  margin-bottom: 20px;
+}
+
+.p2 a {
+  color: rgba(146,	164,	177,	1);
+}
+
+.p4 {
+  margin-bottom: 18px;
+}
+
+.head-mid {
+  margin-bottom: 30px;
+  font-size: 28px;
+  color: rgba(39, 107, 175, 1);
+  border-left: 2px solid rgba(146, 164, 177, 1);
+  padding: 16px 0 10px 0;
+  margin-left: 5px;
+}
+
+.head-mid-text {
+  padding-left: 16px;
+  letter-spacing: 0px;
+}
+
+.blue-text {
+  color: rgba(39, 107, 175, 1);
+}
+
+.blue-text:hover {
+  color: rgba(146,	164,	177,	1);
+}
+
+.click-links {
+  line-height: 30px;
+  padding-bottom: 20px;
+  color: white;
+}
+
+.click-links li {
+  display: inline-block;
+  margin-right: 6px;
+}
+
+.click-links a {
+  text-decoration: none;
+  color: white;
+}
+
+.comments-icon,
+.later-icon,
+.share-icon{
+  height: 30px;
+  width: 33px;
+  float:left;
+  background-color: rgba(75, 85, 92, 1);
+}
+
+.comments-icon {
+  background-image: url('images/comment.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.later-icon {
+  background-image: url('images/upload.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.share-icon {
+  background-image: url('images/share.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.comments-icon:hover,
+.later-icon:hover,
+.share-icon:hover {
+  background-color: rgba(10, 39, 65, 1);
+}
+
+.comments-button,
+.later-button,
+.share-button {
+  float: right;
+  background-color: rgba(146, 164, 177, 1);
+  font-family: 'Open Sans', sans-serif;
+  font-size: 13px;
+  text-align: center;
+}
+
+.comments-button:hover,
+.later-button:hover,
+.share-button:hover {
+  background-color: rgba(17, 88, 164, 1);
+}
+
+.comments-button {
+  width: 125px;
+}
+
+.later-button {
+  width: 95px;
+}
+
+.share-button {
+  width: 121px;
+}
+
+.tint {
+  position: relative;
+  height: 87px;
+  width: 87px;
+  margin: 0 auto;
+}
+
+.tint:after {
+  content: "";
+  position: absolute;
+  top: 3px;
+  bottom: 0;
+  left: 3px;
+  right: 0;
+  background: rgba(17, 88,	164,	.6);
+  -moz-transition: background .3s linear;
+  -webkit-transition: background .3s linear;
+  -o-transition: background .3s linear;
+  transition: background .3s linear;
+  border-radius: 90%;
+}
+
+.tint:hover:after {
+  background: none;
+}
+
+.auth-img {
+  display: block;
+  margin: 0 auto;
+  width: 90px;
+  height: 90px;
+  margin-top: 17px;
+  position: relative;
+}
+
+
+.auth-nav h5 {
+  text-align: center;
+  margin: 15px 0 0 0;
+  color: rgba(17, 88, 164, 1);
+}
+
+.auth-nav-links {
+  text-align: center;
+  margin-top: 3px;
+}
+
+.auth-nav-links a {
+  color: rgba(146, 164, 177, 1);
+  margin: 0 3px 0 3px;
+  font-size: 13px;
+  text-decoration: none;
+}
+
+.surfer {
+  padding-top: 56px;
+  margin-top: -2px;
+}
+
+.surf-girl {
+  width: 278px;
+  height: 300px;
+}
+
+.tint2 {
+  position: relative;
+  height: 300px;
+  width: 278px;
+  margin: 0 auto;
+}
+
+.tint2:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(17, 88,	164,	.6);
+  -moz-transition: background .3s linear;
+  -webkit-transition: background .3s linear;
+  -o-transition: background .3s linear;
+  transition: background .3s linear;
+}
+
+.tint2:hover:after {
+  background: none;
+}
+
+.ad {
+  color: rgba(146, 164, 177, 1);
+  float: right;
+  font-size: 13px;
+  margin-top: 9px;
+}
+
+.sidebar-p {
+  margin-top: 51px;
+}
+
+.sidebar-p h2{
+  color: rgba(17, 88, 164, 1);
+  font-family: 'Oswald', sans-serif;
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+
+.sidebar-p p {
+  color: rgba(146, 164, 177, 1);
+  font-size: 13px;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 24px;
+}
+
+.p5 a {
+  color: rgba(146, 164, 177, 1);
+}
+
+.head-foot {
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  font-size: 63px;
+  margin-top: 77px;
+  margin left: 2px;
+}
+
+.img-links {
+  margin-top: 46px;
+  font-family: 'Oswald', sans-serif;
+  position: relative;
+  max-height: 330px;
+}
+
+.img-links div {
+  display: inline-block;
+  max-width: 325px;
+  margin: 0 -2px 0 0;
+
+}
+
+.cool {
+  background-image: url('images/surf-guy.png');
+  height: 330px;
+  width: 325px;
+  background-size: cover;
+  border: none;
+  padding: none;
+  position: relative;
+}
+
+.title {
+  background-image: url('images/beer.png');
+  height: 330px;
+  width: 325px;
+  background-size: cover;
+  border: none;
+  padding: none;
+  position: relative;
+
+}
+
+.longer {
+  background-image: url('images/zach-galifianakis.png');
+  height: 330px;
+  width: 325px;
+  background-size: cover;
+  border: none;
+  padding: none;
+  position: relative;
+  padding-left: 3px;
+  left: -2px;
+}
+
+.cool-post {
+  background-image: url('images/vedder.png');
+  height: 330px;
+  width: 325px;
+  background-size: cover;
+  border: none;
+  padding: none;
+  position: relative;
+  left: -2px;
+}
+
+.img-links span {
+  position: absolute;
+  font-size: 30px;
+  max-width: 270px;
+  bottom: 12px;
+  left: 17px;
+  vertical-align: bottom;
+  line-height: 38px;
+  text-transform: uppercase;
+}
+
+.tint3 {
+  position: relative;
+  height: 330px;
+  width: 324px;
+  margin: 0 auto;
+}
+
+.tint3:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: -1px;
+  right: 0;
+  background: rgba(17, 88,	164,	.6);
+  -moz-transition: background .3s linear;
+  -webkit-transition: background .3s linear;
+  -o-transition: background .3s linear;
+  transition: background .3s linear;
+}
+.tint3:hover:after {
+  background: none;
+}
+
+.tint3:hover {
+  color: white;
+}
+
+.tint4 {
+  position: relative;
+  height: 330px;
+  width: 324px;
+  margin: 0 auto;
+}
+
+.tint4:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: -2px;
+  right: 0;
+  background: rgba(17, 88,	164,	.6);
+  -moz-transition: background .3s linear;
+  -webkit-transition: background .3s linear;
+  -o-transition: background .3s linear;
+  transition: background .3s linear;
+}
+.tint4:hover:after {
+  background: none;
+}
+
+.tint4:hover {
+  color: white;
+}
+
+footer {
+  color: white;
+  max-width: 100%;
+  height: 99px;
+  background-color: rgba(10, 39, 65, 1);
+  padding-top: 2px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 13px;
+  color: rgba(146, 164, 177, 1);
+}
+
+.copyright {
+  display: inline-block;
+  float: left;
+  padding-left: 153px;
+  padding-top: 12px;
+}
+
+.TIY-logo {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.copyright span {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.nav-items {
+  padding-top: 39px;
+  padding-right: 166px;
+}
+
+.nav-items a {
+  display: inline-block;
+  text-decoration: none;
+  color: rgba(146, 164, 177, 1);
+  float: right;
+  margin-left: 13px;
+}
+
+.nav-2 {
+  border-left: 1px solid rgba(146, 164, 177, 1);
+  padding-left: 8px;
+}
+
+.nav-1 {
+  margin-right: -5px;
+}
+
+.TIY-logo {
+  height: 70px;
+  width: 70px;
+}
